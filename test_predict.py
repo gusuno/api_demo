@@ -7,6 +7,7 @@ input_data = {
     'n_visits' : 10,
 }
 
+
 response = requests.post(url=endpoint, json=input_data)
 print(response)
 print(response.json())
