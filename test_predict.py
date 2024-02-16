@@ -8,7 +8,6 @@ input_data = {
 }
 
 
-
 response = requests.post(url=endpoint, json=input_data)
 print(response)
 print(response.json())
