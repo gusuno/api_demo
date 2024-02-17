@@ -16,7 +16,7 @@ steps:
       "run",
       "deploy",
       "model-iris",
-      "--image=europe-west1-docker.pkg.dev/cloud-production-enrique/models/model-iris:latest",
+      "--image=europe-west1-docker.pkg.dev/$PROJECT_ID/models/model-iris:latest",
       "--allow-unauthenticated",
       "--port=8080",
       "--region=europe-west1",
